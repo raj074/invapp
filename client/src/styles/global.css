@@ -135,3 +135,5 @@ img{
 @import url('./sidebar.css');
 @import url('./client.css');
 @import url('./loadingScreen.css');
+@import url('./invoice.css');
+@import url('./clientDetails.css');

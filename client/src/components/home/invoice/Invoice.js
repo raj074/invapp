@@ -1,6 +1,22 @@
-import React from 'react'
+import React, {useEffect} from 'react'
+import {useSelector, useDispatch} from 'react-redux'
+import CreateInvoiceForm from './CreateInvoiceForm'
+import {getClients} from '../../../redux/actions/clientAction'
+import {getGoods} from '../../../redux/actions/goodsAction'
 
 const Invoice = () => {
+
+    const {auth} = useSelector(state => state)
+    const dispatch = useDispatch();
+
+    useEffect(() => {
+        dispatch(getClients({auth}));
+    }, [dispatch, auth])
+
+    useEffect(() => {
+        dispatch(getGoods({auth}));
+    }, [dispatch, auth])
+
     return (
         <div>
             <div className="client_container" >
@@ -11,7 +27,7 @@ const Invoice = () => {
                     </span>
                      </div>
                 <div className="client_body">
-                   
+                   <CreateInvoiceForm />
                             
                 </div>
 

@@ -1,0 +1,41 @@
+.clientDetails_container{
+    width: 100%;
+    min-height: 100vh;
+    
+}
+
+.clientDetails_header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 12px 0;
+    border-bottom: 3px solid var(--prime);
+    padding: 10px;
+}
+
+.clientDetails_header_leftSide{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-right: auto;
+}
+.clientDetails_header_rightSide{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: auto;
+}
+
+.clientDetails_header span{
+    color: black;
+    font-weight: 400;
+}
+
+
+.clientDetails_invoice{
+    width: 100%;
+    margin-bottom: 5px;
+    box-shadow: var(--outer-shadow);
+    display: flex;
+    justify-content: space-around;
+}

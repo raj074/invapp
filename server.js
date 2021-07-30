@@ -19,6 +19,7 @@ app.use(cookieParser());
 app.use('/api', require('./routes/authRouter'));
 app.use('/api', require('./routes/clientRouter'));
 app.use('/api', require('./routes/goodsRouter'));
+app.use('/api', require('./routes/invoiceRouter'));
 
 
 //!Database connection to mongoose

@@ -5,6 +5,7 @@ import theme from "./themeReducer";
 import intro from "./introCompletionReducer";
 import clients from "./clientReducer";
 import goods from "./goodsReducer";
+import invoice from "./invoiceReducer";
 
 
 
@@ -15,4 +16,5 @@ export default combineReducers({
   intro,
   clients,
   goods,
+  invoice,
 });

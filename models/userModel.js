@@ -43,6 +43,10 @@ const userSchema = new Schema(
       type: String,
       required: true,
     },
+    invoice: {
+      type: Number,
+      default:0
+    },
     avatar: {
       type: String,
       default:

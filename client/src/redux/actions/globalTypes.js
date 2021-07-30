@@ -5,6 +5,7 @@ export const GLOBALTYPES = {
   THEME: "THEME",
   MODAL: "MODAL",
   USER_TYPE: "USER_TYPE",
+  UPDATE_USER: "UPDATE_USER",
 
 };
 

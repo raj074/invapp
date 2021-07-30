@@ -60,6 +60,7 @@
     align-items: center;
     font-size: 17px;
     font-weight: 500;
+    cursor: pointer;
 }
 
 .display_client_card_footer{

@@ -1,0 +1,88 @@
+.invoice_container{
+    width: 100%;
+    height: 100%;
+    box-shadow: var(--outer-shadow);
+}
+
+.invoice_header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid var(--prime);
+    margin: 9px 0;
+    padding: 10px;
+}
+
+.invoice_search_client{
+   padding: 10px;
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+}
+
+.invoice_search_client_close_button{
+    position: absolute;
+    transform: translate(-13px, 0);
+    color: red;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.invoice_search_client_result_container{
+    display: flex;
+    flex-direction: column;
+}
+
+.invoice_search_client_result{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    cursor: pointer;
+    border-bottom: 1px solid black;
+    background-color: white;
+    margin-top: 4px;
+}
+
+.invoice_client_delivery_address{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.invoice_body{
+    width: 100%;
+}
+
+.invoice_body_add_item{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.invoice_body_display_items{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+    border-bottom: 3px solid var(--prime);
+}
+
+.invoice_body_display_items table,td,th{
+    border: 1px solid black;
+}
+.invoice_body_display_items th{
+    border: 1px solid black;
+    padding: 9px;
+}
+.invoice_body_display_items td{
+    border: 1px solid black;
+    padding: 2px;
+}
+
+.invoice_footer{
+    width: 100%;
+    display: flex;
+    justify-content: baseline;
+    margin: 50px 0;
+    padding: 20px;
+}
